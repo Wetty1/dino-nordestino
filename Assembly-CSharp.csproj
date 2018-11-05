@@ -53,21 +53,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Codigos\ComportamentoChao.cs" />
-     <Compile Include="Assets\Codigos\DinoMovimento.cs" />
-     <Compile Include="Assets\Codigos\GeradorObstaculo.cs" />
-     <Compile Include="Assets\Codigos\MoverObstaculo.cs" />
+     <Compile Include="Assets\Codigos\Controle.cs" />
+     <Compile Include="Assets\Codigos\Obstaculos\ComportamentoChao.cs" />
+     <Compile Include="Assets\Codigos\Obstaculos\GeradorObstaculo.cs" />
+     <Compile Include="Assets\Codigos\Obstaculos\MoverObstaculo.cs" />
+     <Compile Include="Assets\Codigos\Player\DinoMovimento.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Wesley/Documents/Git_bitbucket/tresvario/Jogo do dino/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Wesley/Documents/Git_bitbucket/Jogo do dino/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Wesley/Documents/Git_bitbucket/tresvario/Jogo do dino/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Wesley/Documents/Git_bitbucket/Jogo do dino/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Wesley/Documents/Git_bitbucket/tresvario/Jogo do dino/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Wesley/Documents/Git_bitbucket/Jogo do dino/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Wesley/Documents/Git_bitbucket/tresvario/Jogo do dino/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Wesley/Documents/Git_bitbucket/Jogo do dino/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
