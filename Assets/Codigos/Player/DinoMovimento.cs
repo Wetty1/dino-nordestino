@@ -6,7 +6,6 @@ public class DinoMovimento : MonoBehaviour {
 
     public Rigidbody2D rb;
     public float jump;
-    public Sprite spriteDead;
     public BoxCollider2D abaixado;
     public bool abaixadoBool;
 

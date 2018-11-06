@@ -15,13 +15,20 @@ public class GeradorObstaculo : MonoBehaviour {
 
     private Controle ctl;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         ctl = FindObjectOfType<Controle>();
         if (!nuvem)
+        {
             tempo = ctl.velocidadeJogo / 400;
-        else
+            if (tempo < 2.5f)
+                tempo = 2.5f;
+        }
+        else { 
             tempo = ctl.velocidadeJogo / 150;
+        }
+        
+
 	}
 	
 	// Update is called once per frame
@@ -34,7 +41,7 @@ public class GeradorObstaculo : MonoBehaviour {
             int num = Random.Range(0, listaDeObstaculos.Count);
             obstaculo = listaDeObstaculos[num];
             Instantiate(obstaculo, transform.position, transform.rotation);
-            contadorTempo = Random.Range(tempo - 1.5f, tempo + 1.5f);
+            contadorTempo = Random.Range(tempo - 1.3f, tempo + 1.3f);
         }
 	}
 }

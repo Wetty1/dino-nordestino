@@ -21,7 +21,7 @@ public class ComportamentoChao : MonoBehaviour {
         Vector2 direcao = new Vector2(-velocidade * Time.deltaTime, 0);
         rb.velocity = direcao;
 
-        if (transform.position.x < -20f)
+        if (transform.position.x < -22f)
         {
             transform.position = new Vector2 (22f, transform.position.y);
         }

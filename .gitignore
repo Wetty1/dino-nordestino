@@ -9,3 +9,6 @@ UNIFATENE-18.sln UniversoFateneFinal.sln
 /build
 /.vscode
 /.UNIFATENE-18_Data
+/.vs
+/obj
+/*.csproj
