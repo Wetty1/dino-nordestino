@@ -13,11 +13,11 @@ public class ComportamentoChao : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         ctl = FindObjectOfType<Controle>();
-        velocidade = ctl.velocidadeJogo;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        velocidade = ctl.velocidadeJogo;
         Vector2 direcao = new Vector2(-velocidade * Time.deltaTime, 0);
         rb.velocity = direcao;
 

@@ -6,6 +6,7 @@ public class MoverObstaculo : MonoBehaviour {
     [SerializeField]
     private Rigidbody2D rb;
     public float velocidade;
+    public float coeficientVelocidade = 1;
 
     private Controle ctl;
 
@@ -18,7 +19,7 @@ public class MoverObstaculo : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Vector2 direcao = new Vector2(-velocidade * Time.deltaTime, 0);
+        Vector2 direcao = new Vector2(-(velocidade * coeficientVelocidade) * Time.deltaTime, 0);
         rb.velocity = direcao;
 
     }

@@ -20,6 +20,9 @@ public class Controle : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        velocidadeJogo = 650 + (pontosTempo * 2.09166f);
+        if (velocidadeJogo >= 1200)
+            velocidadeJogo = 1200;
         pontosTempo += Time.deltaTime * 10;
         pontos = (int)pontosTempo;
         txtPontos.text = pontos.ToString();
